@@ -108,7 +108,7 @@ function App() {
       <Alert message="کلمه وارد شده کوتاه تر از حد انتظار است" isOpen={isNotEnoughLetters} />
       <Alert message="کلمه وارد شده صحیح نیست" isOpen={isWordNotFoundAlertOpen} />
       <Alert
-        message={`بنظر میرسه شما باختید💔 کلمه مورد نظر : ${solution}`}
+        message={`به نظر می‌رسه شما باختید💔 کلمه مورد نظر : ${solution}`}
         isOpen={isGameLost}
       />
       <Alert
@@ -121,7 +121,7 @@ function App() {
           className="h-6 w-6 cursor-pointer animate-pulse"
           onClick={() => setIsInfoModalOpen(true)}
         />
-        <h1 className="text-xl grow font-light text-center">وردل ، اما با کلمات فارسی</h1>
+        <h1 className="text-xl grow font-light text-center">وردل، اما با کلمات فارسی</h1>
         <MenuAlt2Icon
           className="h-6 w-6 cursor-pointer -rotate-180"
           onClick={() => setIsStatsModalOpen(true)}
