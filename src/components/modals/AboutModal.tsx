@@ -57,7 +57,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                     as="h3"
                     className="text-lg leading-6 font-medium text-gray-900 mr-4"
                   >
-                    درباره وردل ، نسخه ای فارسی از بازی wordle
+                    درباره وردل، نسخه‌ای فارسی از بازی wordle
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500 text-justify">
@@ -71,7 +71,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                         >
                           مهدی 
                         </a>{' '}
-                        با تایپ اسکریپت ، ری اکت جی اس ، تایلویند 
+                        با تایپ اسکریپت، ری اکت جی اس و تیلویند 
                         توسعه داده شده است.
                       به قول خارجیا جاست اینجوی 😇
                       </p>
@@ -81,7 +81,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
                           href="https://github.com/PersianWordle"
                           className="underline font-bold pl-4"
                         >
-                          گیت هاپ
+                          گیت هاب
                         </a>
                         |
                         <a
